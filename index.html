@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="stylesheet" href="./images/gfavicon.png">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <header>
+        <nav id="left-nav">
+            <a href="https://tr.wikipedia.org/wiki/Google">About</a>
+            <a href="https://play.google.com/store?hl=tr&gl=US">Store</a>
+        </nav>
+        <nav id="right-nav">
+            <a href="https://outlook.live.com/owa/">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en">Images</a>
+            <img src="./images/appicon.png" alt="menu_icon" title="Google Applications">
+            <button class="button-sign">Sign In</button>
+
+        </nav>
+    </header>
     <div id="Container">
         <section id="page_container">
-            <img src="./images/googlelogo.png" alt="google_logo" id="google_logo">
+            <div class="search-part">
+                <img src="./images/googlelogo.png" alt="google_logo" id="google_logo" width="280">
+                <input type="text" title="search" id="search_input">
+                <img src="./images/magnifying_glass.jpg" alt="search_button" title="click to search" width="40px">
+                <img src="./images/google_microphone.png" alt="microphone_button" title="click to talk" width="25px">
+                <button class="google_search_button">Google Search</button>
+                <button class="lucky">I'm Feeling Lucky</button>
+                <div class="google_english">
+                    Other Languages you can use Google: <a href="https://www.google.com/" target="_blank">English</a>
+                </div>
+                
+            </div>
+
+
         </section>
 
 
@@ -20,6 +49,7 @@
 
 
     </div>
-    
+
 </body>
+
 </html>

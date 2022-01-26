@@ -1,3 +1,27 @@
+body{
+    margin: 0 auto;
+}
+#right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+a{
+    color: rgb(17, 16, 16);
+    font-size: 14px;
+    display: inline-block;
+    line-height: 24px;
+    margin-right: 20px;
+}
+a:hover{
+    color: darkgrey;
+}
+img{
+    padding: 5px;
+    margin: auto 7px;
+}
 #google_logo{
     position: absolute;
     top: 0;
