@@ -12,43 +12,58 @@
 
 <body>
     <header>
-        <nav id="left-nav">
-            <a href="https://tr.wikipedia.org/wiki/Google">About</a>
-            <a href="https://play.google.com/store?hl=tr&gl=US">Store</a>
+        <nav id="nav_bar">
+            <ul>
+                <li class="nav_links" id="gmail"><a href="https://outlook.live.com/owa/">Gmail</a></li>
+                <li class="nav_links" id="images"><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+                <li id="sign"><a href="https://account.microsoft.com/account">Sign In</a></li>
+            </ul>
+
+
+
         </nav>
-        <nav id="right-nav">
+        <!-- <nav id="right-nav">
             <a href="https://outlook.live.com/owa/">Gmail</a>
             <a href="https://www.google.com/imghp?hl=en">Images</a>
             <img src="./images/appicon.png" alt="menu_icon" title="Google Applications">
             <button class="button-sign">Sign In</button>
-
-        </nav>
+            <a href="https://tr.wikipedia.org/wiki/Google">About</a>
+            <a href="https://play.google.com/store?hl=tr&gl=US">Store</a>
+        </nav> -->
     </header>
+
     <div id="Container">
-        <section id="page_container">
-            <div class="search-part">
-                <img src="./images/googlelogo.png" alt="google_logo" id="google_logo" width="280">
-                <input type="text" title="search" id="search_input">
-                <img src="./images/magnifying_glass.jpg" alt="search_button" title="click to search" width="40px">
-                <img src="./images/google_microphone.png" alt="microphone_button" title="click to talk" width="25px">
-                <button class="google_search_button">Google Search</button>
-                <button class="lucky">I'm Feeling Lucky</button>
-                <div class="google_english">
-                    Other Languages you can use Google: <a href="https://www.google.com/" target="_blank">English</a>
-                </div>
-                
+        <div class="google">
+            <img src="./images/googlelogo.png" alt="google_logo" id="google_logo" width="280">
+        </div>
+        <div class="search-part"> 
+            <!-- class buttons, input id google_search -->
+            <input type="text" title="search" id="search_input">
+            <img src="./images/magnifying_glass.jpg" alt="search_button" title="click to search" width="40px">
+            <img src="./images/google_microphone.png" alt="microphone_button" title="click to talk" width="25px">
+            <button class="google_search_button">Google Search</button>
+            <button class="lucky">I'm Feeling Lucky</button>
+            <div class="google_english">
+                Other Languages you can use Google: <a href="https://www.google.com/" target="_blank">English</a>
             </div>
 
-
-        </section>
-
-
-
-
-
+        </div>
 
 
     </div>
+    <footer>
+        <ul class="left-foot">
+            <p>Turkey</p>
+            <li><a href="https://ads.google.com/intl/en_tr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Adevertising</a></li>
+            <li> <a href="https://smallbusiness.withgoogle.com/intl/tr_tr/?subid=tr-tr-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=tr-tr-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        </ul>
+        <ul class="right-foot">
+            <li> <a href="https://policies.google.com/privacy?hl=en-TR&fg=1">Privacy</a> </li>
+            <li> <a href="https://policies.google.com/terms?hl=en-TR&fg=1">Terms</a> </li>
+            <li> <a href="https://www.google.com/preferences?hl=en-TR&fg=1">Settings</a> </li>
+        </ul>
+    </footer>
 
 </body>
 
